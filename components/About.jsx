@@ -33,14 +33,14 @@ export default function About() {
 					</p>
 					<div className="flex justify-center">
 						<a
-							href="mailto:nicoleveque@outlook.com"
-							className="transition duration-500 ease-in-out inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:ouline-none hover:bg-green-600 hover:animate-pulse rounded text-lg "
+							href="#contact"
+							className="transition duration-500 ease-in-out inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:ouline-none hover:bg-green-600 hover:animate-pulse rounded-lg text-lg "
 						>
 							Contactez moi
 						</a>
 						<a
 							href="#projects"
-							className="transition duration-500 ease-in-out ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+							className="transition duration-500 ease-in-out ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded-lg text-lg"
 						>
 							{' '}
 							Projets
