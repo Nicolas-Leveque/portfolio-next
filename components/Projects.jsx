@@ -15,7 +15,7 @@ export default function Projects() {
   return (
 		<section
 			id="projects"
-			className="text-gray-400 bg-gray-900 body-font max-w-screen-lg lg:mt-0 mt-64"
+			className="text-gray-400 bg-gray-900 body-font max-w-screen-lg lg:mt-0 mt-0"
 		>
 			<div className="container w-full py-10 text-center ">
 				<div className="flex flex-col w-full mb-20">

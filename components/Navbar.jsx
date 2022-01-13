@@ -3,9 +3,10 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
+
 export default function Navbar() {
   return (
-		<header className="bg-gray-800 md:sticky top-0 z-10 w-screen">
+		<header className="bg-gray-800 md:sticky top-0 z-10 w-full">
 			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 				<div className="title-font font-medium text-white mb-4 md:mb-0">
 					<a href="#about" className="ml-3 text-xl">
@@ -25,8 +26,9 @@ export default function Navbar() {
 						href="https://www.linkedin.com/in/nicoleveque/"
 						target="_blank"
 						rel="noreferrer"
-						className="mr-5   hover:text-white"
+						className="mr-5 hover:text-white"
 					>
+						
 						<FontAwesomeIcon icon={faLinkedin} size="2x" className="m-5" />
 					</a>
 					<a
