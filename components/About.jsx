@@ -9,7 +9,8 @@ import photoProfil from '../public/data/nico.jpg'
 export default function About() {
   useEffect(() => {
     AOS.init({
-      duration: 2000
+      duration: 2000,
+			once: true,
     })
   }, [])
   return (
