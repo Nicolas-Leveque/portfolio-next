@@ -20,8 +20,11 @@ export default function Navbar() {
 					<a href="#skills" className="mr-5 hover:text-white">
 						Skills
 					</a>
+					<a href="#contact" className="mr-5 hover:text-white">
+						Contact
+					</a>
 				</nav>
-				<div className="inline-flex items-center align-center py-1 px-3 text-base mt-4 md:mt-0">
+				{/* <div className="inline-flex items-center align-center py-1 px-3 text-base mt-4 md:mt-0">
 					<a
 						href="https://www.linkedin.com/in/nicoleveque/"
 						target="_blank"
@@ -47,7 +50,7 @@ export default function Navbar() {
 					>
 						<FontAwesomeIcon icon={faEnvelope} size="2x" className="m-5" />
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</header>
 	);

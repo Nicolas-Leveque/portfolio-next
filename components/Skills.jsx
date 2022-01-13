@@ -32,7 +32,7 @@ export default function Skills() {
 					{hardSkills.map((skill) => (
 						<div
 							key={skill}
-							data-aos="flip-left"
+							data-aos="fade-down"
 							className="p-2 sm:w-1/2 w-full"
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -51,7 +51,8 @@ export default function Skills() {
 					{softSkills.map((skill) => (
 						<div
 							key={skill}
-							data-aos="flip-left"
+							data-aos="fade-up"
+							
 							className="p-2 sm:w-1/2 w-full"
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">

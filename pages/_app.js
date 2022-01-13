@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       easing: "ease-in-out",
-      once: true,
       offset: 2000,
     })
   }, [])
