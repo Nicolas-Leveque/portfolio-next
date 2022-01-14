@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 import Image from 'next/image'
 
 
-import photoProfil from '../public/data/nico.jpg'
+import photoProfil from '../public/data/nicolas2.jpeg'
 
 export default function About() {
   useEffect(() => {
@@ -52,12 +52,12 @@ export default function About() {
 					className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-20 "
 				>
 					<Image
-            width={400}
-            height={400}
+            width={350}
+            height={350}
             objectFit="cover"
             src={photoProfil}
             alt="photo de profil"
-            className="object-cover object-center rounded-full"
+            className="object-cover object-center rounded-full "
           />
 				</div>
 			</div>
