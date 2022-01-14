@@ -1,17 +1,9 @@
-import { useEffect } from 'react'
 import Image from 'next/image'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 import  { CodeIcon } from "@heroicons/react/solid"
 import { ocProjects, otherProjects } from "../public/data/data"
 
 export default function Projects() {
-  useEffect(() =>{
-    AOS.init({ 
-      duration: 2000,
-      
-    })
-  })
+  
   return (
 		<section
 			id="projects"
@@ -33,8 +25,6 @@ export default function Projects() {
 								key={projet.key}
 								target="_blank"
 								rel="noreferrer"
-								data-aos="flip-right"
-								data-aos-offset={index * 50}
 								className="flex relative w-72 m-2 xs:w-full"
 							>
                 <Image
@@ -81,8 +71,6 @@ export default function Projects() {
 								key={projet.key}
 								target="_blank"
 								rel="noreferrer"
-								data-aos="flip-right"
-								data-aos-offset={index * 100}
 								className="flex relative w-72 m-2 xs:w-full"
 							>
                 <Image

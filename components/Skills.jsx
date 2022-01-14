@@ -1,14 +1,8 @@
-import { useEffect } from 'react';
-import AOS from 'aos'
 import { hardSkills, softSkills } from '../public/data/data'
 import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid'
 
 export default function Skills() {
-  useEffect(() =>{
-    AOS.init({
-      duration: 2000
-    })
-  })
+  
   return (
 		<section id="skills" className="max-w-screen-lg mb-5">
 			<div className="container px-5 py-10 mx-auto">
@@ -32,7 +26,6 @@ export default function Skills() {
 					{hardSkills.map((skill) => (
 						<div
 							key={skill}
-							data-aos="fade-down"
 							className="p-2 sm:w-1/2 w-full"
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -51,8 +44,6 @@ export default function Skills() {
 					{softSkills.map((skill) => (
 						<div
 							key={skill}
-							data-aos="fade-up"
-							
 							className="p-2 sm:w-1/2 w-full"
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">
