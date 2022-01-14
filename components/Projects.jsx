@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import  { CodeIcon } from "@heroicons/react/solid"
-import { ocProjects, otherProjects } from "../public/data/data"
+import Image from 'next/image';
+import { CodeIcon } from '@heroicons/react/solid';
+import { ocProjects, otherProjects } from '../public/data/data';
 
 export default function Projects() {
-  
-  return (
+	return (
 		<section
 			id="projects"
 			className="text-gray-400 bg-gray-900 body-font max-w-screen-lg lg:mt-0 mt-0"
@@ -25,16 +24,16 @@ export default function Projects() {
 								key={projet.key}
 								target="_blank"
 								rel="noreferrer"
-								className="flex relative w-72 m-2 xs:w-full"
+								className="flex relative w-72 m-2 xs:w-full rounded"
 							>
-                <Image
-                  layout="fill"
-                  objectFit="cover"
-                  src={projet.image}
-                  alt={`gallery ${projet.key}`}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                />
-								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-90">
+								<Image
+									layout="fill"
+									objectFit="cover"
+									src={projet.image}
+									alt={`gallery ${projet.key}`}
+									className="absolute inset-0 w-full h-full object-cover object-center"
+								/>
+								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 transition ease-in-out duration-500 opacity-0 hover:opacity-90 hover:scale-125">
 									<h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
 										{projet.subtitle}
 									</h2>
@@ -62,7 +61,8 @@ export default function Projects() {
 						Autres Projets
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Voici les autres projets que j&apos;ai mis en oeuvre sur mon temps libre
+						Voici les autres projets que j&apos;ai mis en oeuvre sur mon temps
+						libre
 					</p>
 					<div className="flex justify-center flex-wrap mt-8">
 						{otherProjects.map((projet, index) => (
@@ -73,14 +73,14 @@ export default function Projects() {
 								rel="noreferrer"
 								className="flex relative w-72 m-2 xs:w-full"
 							>
-                <Image
-                  layout="fill"
-                  objectFit="cover"
-                  src={projet.image}
-                  alt={`gallery ${projet.key}`}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                />
-								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-90">
+								<Image
+									layout="fill"
+									objectFit="cover"
+									src={projet.image}
+									alt={`gallery ${projet.key}`}
+									className="absolute inset-0 w-full h-full object-cover object-center"
+								/>
+								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 transition ease-in-out duration-500 opacity-0 hover:opacity-90 hover:scale-125">
 									<h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
 										{projet.subtitle}
 									</h2>

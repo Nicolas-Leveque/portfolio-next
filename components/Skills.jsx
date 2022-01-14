@@ -1,9 +1,9 @@
-import { hardSkills, softSkills } from '../public/data/data'
-import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid'
+import { motion } from 'framer-motion';
+import { hardSkills, softSkills } from '../public/data/data';
+import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid';
 
 export default function Skills() {
-  
-  return (
+	return (
 		<section id="skills" className="max-w-screen-lg mb-5">
 			<div className="container px-5 py-10 mx-auto">
 				<div className="text-center mb-20">
@@ -13,20 +13,31 @@ export default function Skills() {
 					</h1>
 					<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
 						Après plusieurs années dans les secteurs industriel et logistique,
-						ce qui m&apos;a apporté de l&apos;expérience professionnelle et la rigueur, je
-						reviens vers ma première passion: l&apos;informatique.Devenu développeur
-						web, j&apos;ai ajouter à mes compétences de maintenance, l&apos;aspect
-						programmation et création.
+						ce qui m&apos;a apporté de l&apos;expérience professionnelle et la
+						rigueur, je reviens vers ma première passion:
+						l&apos;informatique.Devenu développeur web, j&apos;ai ajouter à mes
+						compétences de maintenance, l&apos;aspect programmation et création.
 					</p>
 				</div>
 				<h3 className="flex justify-center font-bold text-white text-2xl">
 					Hard Skills
 				</h3>
 				<div className="flex flex-wrap lg:w4/5 sm:mx-auto sm:mb-2">
-					{hardSkills.map((skill) => (
-						<div
+					{hardSkills.map((skill, index) => (
+						<motion.div
 							key={skill}
 							className="p-2 sm:w-1/2 w-full"
+							initial="hidden"
+							whileInView="visible"
+							viewport={{ once: true }}
+							transition={{
+								duration: 1,
+								delay: `${index}` / 10,
+							}}
+							variants={{
+								hidden: { opacity: 0 },
+								visible: { opacity: 1 },
+							}}
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">
 								<BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
@@ -34,17 +45,28 @@ export default function Skills() {
 									{skill}
 								</span>
 							</div>
-						</div>
+						</motion.div>
 					))}
 				</div>
 				<h3 className="flex justify-center font-bold text-white text-2xl">
 					Soft Skills
 				</h3>
 				<div className="flex flex-wrap lg:w4/5 sm:mx-auto sm:mb-2 ">
-					{softSkills.map((skill) => (
-						<div
+					{softSkills.map((skill, index) => (
+						<motion.div
 							key={skill}
 							className="p-2 sm:w-1/2 w-full"
+							initial="hidden"
+							whileInView="visible"
+							viewport={{ once: true }}
+							transition={{
+								duration: 1,
+								delay: `${index}` / 10,
+							}}
+							variants={{
+								hidden: { opacity: 0 },
+								visible: { opacity: 1 },
+							}}
 						>
 							<div className="bg-gray-800 rounded flex p-4 h-full items-center">
 								<BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
@@ -52,7 +74,7 @@ export default function Skills() {
 									{skill}
 								</span>
 							</div>
-						</div>
+						</motion.div>
 					))}
 				</div>
 			</div>
