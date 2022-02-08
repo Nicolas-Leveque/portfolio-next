@@ -90,6 +90,25 @@ export const otherProjects = [
 		linkRepo: 'https://github.com/Nicolas-Leveque/react-calc',
 		link: '',
 	},
+	{
+		key: 'other4',
+		title: 'React Tasktracker',
+		subtitle: 'ReactJS',
+		description:
+			'1ere partie du projet tasktracker: la même application tasktracker sous React, Vue et Angular',
+		image: '/screenshot_react-tasktracker.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/react-tasktracker',
+		link: 'https://react-tasktracker-nicoleveque.netlify.app/',
+	},
+	{
+		key: 'other5',
+		title: 'Vue tasktracker',
+		subtitle: 'VueJS',
+		description: '2nd partie du projet tasktracker: vueJS',
+		image: '/screenshot_vue-tasktracker.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/vue-tasktracker',
+		link: 'https://vue-tasktracker-nicoleveque.netlify.app/',
+	},
 ];
 
 export const hardSkills = [
