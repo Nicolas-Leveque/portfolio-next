@@ -64,6 +64,26 @@ export const ocProjects = [
 export const otherProjects = [
 	{
 		key: 'other1',
+		title: 'Personal news',
+		subtitle: 'ReactJS, Material UI',
+		description:
+			"Affiche les grand titre des principaux journaux francais sous forme de cartes, s'appuie sur l'api webscrapper",
+		image: '/screenshot-personal-news.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/personal-news',
+		link: 'https://personal-news.netlify.app/',
+	},
+	{
+		key: 'other2',
+		title: 'API Web scrapper',
+		subtitle: 'Nodejs, Expressjs',
+		description:
+			"Récupère les gros titre des principaux journaux francais et envoie les infos sous format JSON, Créé pour alimenter l'app personal-news",
+		image: '/screenshot-webscrapper.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/webscrapper-api',
+		link: '',
+	},
+	{
+		key: 'other3',
 		title: 'API task manager',
 		subtitle: 'NodeJS, ExpressJS',
 		description:
@@ -73,7 +93,7 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other2',
+		key: 'other4',
 		title: 'Application météo',
 		subtitle: 'NodeJS, ExpressJS',
 		description: 'Simple application météo en NodeJS hébérgée sur Heroku',
@@ -82,7 +102,7 @@ export const otherProjects = [
 		link: 'https://leveque-weather-app.herokuapp.com/',
 	},
 	{
-		key: 'other3',
+		key: 'other5',
 		title: 'Calculatrice',
 		subtitle: 'ReactJS',
 		description: 'Une simple calculatrice en reactJS',
@@ -91,7 +111,7 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other4',
+		key: 'other6',
 		title: 'React Tasktracker',
 		subtitle: 'ReactJS',
 		description:
@@ -101,7 +121,7 @@ export const otherProjects = [
 		link: 'https://react-tasktracker-nicoleveque.netlify.app/',
 	},
 	{
-		key: 'other5',
+		key: 'other7',
 		title: 'Vue tasktracker',
 		subtitle: 'VueJS',
 		description: '2nd partie du projet tasktracker: vueJS',

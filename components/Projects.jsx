@@ -24,14 +24,14 @@ export default function Projects() {
 								key={projet.key}
 								target="_blank"
 								rel="noreferrer"
-								className="flex relative w-72 m-2 xs:w-full rounded"
+								className="flex relative w-72 m-2 xs:w-full rounded-lg"
 							>
 								<Image
 									layout="fill"
 									objectFit="cover"
 									src={projet.image}
 									alt={`gallery ${projet.key}`}
-									className="absolute inset-0 w-full h-full object-cover object-center"
+									className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
 								/>
 								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 transition ease-in-out duration-500 opacity-0 hover:opacity-90 hover:scale-125">
 									<h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
@@ -71,14 +71,14 @@ export default function Projects() {
 								key={projet.key}
 								target="_blank"
 								rel="noreferrer"
-								className="flex relative w-72 m-2 xs:w-full"
+								className="flex relative w-72 m-2 xs:w-full rounded-lg"
 							>
 								<Image
 									layout="fill"
 									objectFit="cover"
 									src={projet.image}
 									alt={`gallery ${projet.key}`}
-									className="absolute inset-0 w-full h-full object-cover object-center"
+									className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
 								/>
 								<div className="relative px-8 py-10 z-10 w-full border-4 border-gray-800 bg-gray-900 transition ease-in-out duration-500 opacity-0 hover:opacity-90 hover:scale-125">
 									<h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
