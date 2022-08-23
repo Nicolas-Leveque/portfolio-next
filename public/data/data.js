@@ -64,6 +64,15 @@ export const ocProjects = [
 export const otherProjects = [
 	{
 		key: 'other1',
+		title: 'Tic tac toe',
+		subtitle: 'ReactJS',
+		description: 'Un jeu de morpion avec une grille de taille variable entre 3 et 21 cases de coté et une IA basique',
+		image: '/screenshot-tictactoe.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/tictactoe-react',
+		link: 'https://variable-tictactoe.netlify.app/',
+	},
+	{
+		key: 'other2',
 		title: 'Personal news',
 		subtitle: 'ReactJS, Material UI',
 		description:
@@ -73,7 +82,7 @@ export const otherProjects = [
 		link: 'https://personal-news.netlify.app/',
 	},
 	{
-		key: 'other2',
+		key: 'other3',
 		title: 'API Web scrapper',
 		subtitle: 'Nodejs, Expressjs',
 		description:
@@ -83,7 +92,7 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other3',
+		key: 'other4',
 		title: 'API task manager',
 		subtitle: 'NodeJS, ExpressJS',
 		description:
@@ -93,7 +102,7 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other4',
+		key: 'other5',
 		title: 'Application météo',
 		subtitle: 'NodeJS, ExpressJS',
 		description: 'Simple application météo en NodeJS hébérgée sur Heroku',
@@ -102,7 +111,7 @@ export const otherProjects = [
 		link: 'https://leveque-weather-app.herokuapp.com/',
 	},
 	{
-		key: 'other5',
+		key: 'other6',
 		title: 'Calculatrice',
 		subtitle: 'ReactJS',
 		description: 'Une simple calculatrice en reactJS',
@@ -111,7 +120,7 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other6',
+		key: 'other7',
 		title: 'React Tasktracker',
 		subtitle: 'ReactJS',
 		description:
@@ -121,7 +130,7 @@ export const otherProjects = [
 		link: 'https://react-tasktracker-nicoleveque.netlify.app/',
 	},
 	{
-		key: 'other7',
+		key: 'other8',
 		title: 'Vue tasktracker',
 		subtitle: 'VueJS',
 		description: '2nd partie du projet tasktracker: vueJS',
