@@ -93,16 +93,6 @@ export const otherProjects = [
 	},
 	{
 		key: 'other4',
-		title: 'API task manager',
-		subtitle: 'NodeJS, ExpressJS',
-		description:
-			"Backend d'une application task manager en NodeJS avec gestion d'utilisateurs, authentification et envoie d'email via sendgrid",
-		image: '/screenshot-task-api.png',
-		linkRepo: 'https://github.com/Nicolas-Leveque/Task_manager-api',
-		link: '',
-	},
-	{
-		key: 'other5',
 		title: 'Application météo',
 		subtitle: 'NodeJS, ExpressJS',
 		description: 'Simple application météo en NodeJS hébérgée sur Heroku',
@@ -111,7 +101,7 @@ export const otherProjects = [
 		link: 'https://leveque-weather-app.herokuapp.com/',
 	},
 	{
-		key: 'other6',
+		key: 'other5',
 		title: 'Calculatrice',
 		subtitle: 'ReactJS',
 		description: 'Une simple calculatrice en reactJS',
@@ -120,23 +110,13 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other7',
-		title: 'React Tasktracker',
-		subtitle: 'ReactJS',
-		description:
-			'1ere partie du projet tasktracker: la même application tasktracker sous React, Vue et Angular',
-		image: '/screenshot_react-tasktracker.png',
-		linkRepo: 'https://github.com/Nicolas-Leveque/react-tasktracker',
-		link: 'https://react-tasktracker-nicoleveque.netlify.app/',
-	},
-	{
-		key: 'other8',
-		title: 'Vue tasktracker',
-		subtitle: 'VueJS',
-		description: '2nd partie du projet tasktracker: vueJS',
-		image: '/screenshot_vue-tasktracker.png',
-		linkRepo: 'https://github.com/Nicolas-Leveque/vue-tasktracker',
-		link: 'https://vue-tasktracker-nicoleveque.netlify.app/',
+		key: 'other6',
+		title: 'Todo Firebase',
+		subtitle: 'ReactJS, Material UI, Firebase',
+		description: 'Une simple todo app en ReactJS avec Material UI et Firebase',
+		image: '/screenshot-todoapp.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/todos-firebase',
+		link: 'https://todolist-from-firebase.netlify.app/'
 	},
 ];
 
