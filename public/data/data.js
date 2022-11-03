@@ -93,15 +93,6 @@ export const otherProjects = [
 	},
 	{
 		key: 'other4',
-		title: 'Application météo',
-		subtitle: 'NodeJS, ExpressJS',
-		description: 'Simple application météo en NodeJS hébérgée sur Heroku',
-		image: '/screenshot-weather.png',
-		linkRepo: 'https://github.com/Nicolas-Leveque/node-weather-website',
-		link: 'https://leveque-weather-app.herokuapp.com/',
-	},
-	{
-		key: 'other5',
 		title: 'Calculatrice',
 		subtitle: 'ReactJS',
 		description: 'Une simple calculatrice en reactJS',
@@ -110,13 +101,22 @@ export const otherProjects = [
 		link: '',
 	},
 	{
-		key: 'other6',
+		key: 'other5',
 		title: 'Todo Firebase',
 		subtitle: 'ReactJS, Material UI, Firebase',
 		description: 'Une simple todo app en ReactJS avec Material UI et Firebase',
 		image: '/screenshot-todoapp.png',
 		linkRepo: 'https://github.com/Nicolas-Leveque/todos-firebase',
 		link: 'https://todolist-from-firebase.netlify.app/'
+	},
+	{
+		key: 'other6',
+		title: 'Pomodoro webapp',
+		subtitle: 'ReactJS, Material UI',
+		description: 'Une application Pomodoro en reactJS avec Material UI, optimisé pour mobile',
+		image: '/screenshot-pomodoro.png',
+		linkRepo: 'https://github.com/Nicolas-Leveque/Pomodoro-react',
+		link: 'https://pomodoro-in-react.netlify.app/'
 	},
 ];
 
